@@ -26,7 +26,7 @@ export default function AutoFilterDropDown({ data, fieldName, valueChange }) {
     }
 
     return (
-        <div class="dropdown" >
+        <div className="dropdown" >
             <hr />
             <input type="text" placeholder={'enter your ' + fieldName} value={keyWord} onChange={(e) => keyWordChanged(e.target.value)} />
             <ul className="dropdown-content">
