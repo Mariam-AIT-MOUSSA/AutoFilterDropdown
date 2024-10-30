@@ -32,9 +32,6 @@ export default function UsersDropdown() {
         <>
             <AutoFilterDropDown data={usersList} fieldName={'name'} valueChange={onValueChange}></AutoFilterDropDown>
             <br />
-            <div>
-                Selected user:    {selectedUser ? selectedUser['name'] : ''}
-            </div>
         </>
     )
 }
